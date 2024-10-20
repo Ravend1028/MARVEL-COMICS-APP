@@ -5,7 +5,12 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        comic: ['Comic Neue', 'cursive'],  // For body text
+        bangers: ['Bangers', 'cursive'],   // For headings
+      },
+    },
   },
   plugins: [],
 }
